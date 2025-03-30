@@ -1,0 +1,42 @@
+.vl {
+    border-left: 0.18rem solid black;
+    height: 3rem;
+}
+
+body {
+    /* margin: 10px 50px 0px 50px ; */
+}
+
+nav {
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header {
+    /* justify-content: space-around; */
+    padding: 2px;
+    /* background-color: azure; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa {
+    height: 28em;
+    width: 30%;
+}
+
+
+
+.secao {
+    background-color: bisque;
+    height: 500px;
+    align-items: center;
+}
