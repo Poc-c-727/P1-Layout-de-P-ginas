@@ -6,29 +6,26 @@
 
 
 nav {
-    padding: 5px;
-    background-color: antiquewhite;
-    border-radius: 10px;
-    align-items:center;
-    justify-content: space-between;
-}
-
-header {
-    /* justify-content: space-around; */
-    padding: 2px;
-    /* background-color: azure; */
+    /* padding: 5px; */
     align-items: center;
     justify-content: space-between;
 }
 
-main {
+header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
 }
 
-article {
+main {
+    /* padding: 35px; */
+}
 
+footer {
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .caixa {
@@ -42,44 +39,3 @@ article {
     align-items: center;
     padding: 10px;
 }
-/* 
-.box {
-    border: 2px solid black;
-    border-radius: 2px;
-    display: flex;
-    padding: 10px;
-} */
-
-.carousel-indicators-cima {
-    position: absolute;
-    right: -12;
-    bottom: 15;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
-    border-radius: 100%;
-  }
-  .carousel-indicators-cima [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 10px;
-    height: 10px;
-    padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: 0.5;
-    border-radius: 100%;
-    transition: opacity 0.6s ease;
-  }
