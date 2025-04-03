@@ -1,12 +1,4 @@
-.vl {
-    border-left: 0.18rem solid black;
-    height: 3rem;
-}
-
-
-
 nav {
-    /* padding: 5px; */
     align-items: center;
     justify-content: space-between;
 }
@@ -14,10 +6,6 @@ nav {
 header {
     display: flex;
     justify-content: space-evenly;    
-}
-
-main {
-    /* padding: 35px; */
 }
 
 footer {
@@ -34,8 +22,6 @@ a {
 }
 
 .secao {
-    /* background-color: bisque; */
-    /* height: 500px; */
     align-items: center;
     padding: 10px;
 }
